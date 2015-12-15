@@ -5,9 +5,16 @@ body {
   background: #edeff0;
   font-size: 16px; }
 
+h1 {
+  text-align: center;
+}
+
+
 a {
   color: #3f8abf;
-  text-decoration: none; }
+  text-decoration: none;
+  padding-left: 10px;
+ }
   a:hover {
     color: #65a1cc; }
 
@@ -40,7 +47,7 @@ a {
         margin-left: 10px; }
         .list .item .actions .delete:hover {
           color: #f28888; }
-    .list .item.editing .actions {
+    .list .item.editing-item .actions {
       margin-top: 17px; }
   .list .edited label:after {
     content: " edited";
