@@ -15,12 +15,4 @@ angular.module("todoListApp", [])
       console.log("This is not the main ctrl!");
     };
 
-  })
-
-  .controller('imASibling', function($scope) {
-
-    $scope.foobar = 1234;
-
-    //do other stuff
-
   });
