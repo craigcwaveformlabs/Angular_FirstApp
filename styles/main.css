@@ -5,16 +5,9 @@ body {
   background: #edeff0;
   font-size: 16px; }
 
-h1 {
-  text-align: center;
-}
-
-
 a {
   color: #3f8abf;
-  text-decoration: none;
-  padding-left: 10px;
- }
+  text-decoration: none; }
   a:hover {
     color: #65a1cc; }
 
@@ -60,7 +53,6 @@ a {
     text-decoration: line-through; }
   .list .add {
     padding: 25px 0 27px 25px; }
-
 
 input[type="checkbox"] {
     display:none;

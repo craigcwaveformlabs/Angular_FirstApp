@@ -11,30 +11,19 @@
 
   <h1 ng-click="">My ToDo List</h1>
 
-  <div ng-controller="mainCtrl" class="list">
+  <!-- Insert HTML with custom directive -->
+  <todos> </todos>
 
-    <div class="add">
-      <a href="" ng-click="addToDo()">+ Add a New Task</a>
-    </div>
 
-    <div ng-repeat="todo in todos" ng-class="{'editing-item': editing, 'edited': todo.edited}" class="item">
-      <input ng-model="todo.completed" type="checkbox" />
-      <label ng-hide="editing" ng-click="">{{todo.name}}</label>
-      <input ng-change="todo.edited = true" ng-blur="editing = false;" ng-show="editing" ng-model="todo.name" class="editing-label" type="text" />
 
-      <div class="actions">
-        <a href="" ng-click="editing = !editing">Edit</a>
-        <a href="" ng-click="helloConsole()">Save</a>
-        <a href="" ng-click="deleteTodo(todo, $index)" class="delete">Delete</a>
-      </div>
-    </div>
 
-  </div>
 
+  <!-- Links to scripts -->
   <script src="vendor/angular.js" type="text/javascript"></script>
   <script src="scripts/app.js" type="text/javascript"></script>
   <script src="scripts/controllers/main.js" type="text/javascript"></script>
   <script src="scripts/services/data.js" type="text/javascript"></script>
+  <script src="scripts/directives/todos.js" type="text/javascript"></script>
 </body>
 
 </html>
