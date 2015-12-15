@@ -2,5 +2,4 @@
 
 Simple ToDo List built with Angular
 
-To Do List
-![Screens](img/screen.png "Screen View")
+![Screen](img/screen.png "Screen View")
